@@ -83,8 +83,9 @@ header .row .col-md-7 {
 }
 
 header .row .col-md-5 img {
-    width: 85%;
+    width: 90%;
     margin-top: 3vmin;
+    box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
 
 }
 
@@ -148,4 +149,52 @@ header .container .col-md-7 h1 {
 
 .btn-outline-success:hover {
     color: none;
+}
+
+/* Section 1 */
+
+.section-1 {
+    padding: 20vmin 0;
+}
+
+.section-1 .row .col-sm-6 .skycrapper img {
+    opacity: 0.8;
+    width: 80%;
+    border-radius: 0.2em;
+}
+
+.section-1 .row .col-sm-6:last-child {
+    position: relative;
+}
+
+.section-1 .row .col-sm-6 .panel {
+    /* position: absolute;
+    top: 7vmin;
+    left: -18vmin; */
+    background: white;
+    border-radius: 3px;
+    text-align: left;
+    padding: 9vmin 5vmin 9vmin 10vmin;
+    box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
+    font-family: var(--Rubik);
+    /* z-index: 1; */
+
+}
+
+.section-1 .row .col-sm-6 .takeshi {
+    width: 30%;
+    margin-bottom: 10px;
+    border-radius: 3px;
+
+}
+
+.section-1 .row .col-sm-6 h1 {
+    font-weight: bold;
+    padding: 0, 4em 0;
+    font-size: 2em;
+}
+
+.section-1 .row .col-sm-6 p {
+    font-size: 0.9em;
+    color: rgba(0, 0, 0, 0.5);
 }
