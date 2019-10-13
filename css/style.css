@@ -77,14 +77,14 @@ header .nav-link:hover {
 
 header .row .col-md-7 {
     padding: 22vmin 1vmin;
-    padding-bottom: 30vmin;
+    padding-bottom: 35vmin 1vmin;
     font-family: var(--Rubik);
     color: whitesmoke;
 }
 
 header .row .col-md-5 img {
     width: 85%;
-    margin-top: 10vmin;
+    margin-top: 3vmin;
 
 }
 
@@ -95,7 +95,7 @@ header .container .col-md-7 h6 {
 
 
 header .container .col-md-7 h1 {
-    font-size: 8.5vmin;
+    font-size: 8.5vmin 1vmin;
     font-weight: bold;
     padding: 0.1em 0em;
 }
