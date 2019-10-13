@@ -73,6 +73,12 @@ header .nav-link:hover {
     color: black;
 }
 
+button .navbar-toggler .collapse {
+    z-index: 1;
+}
+
+
+
 /* Julia Morgan */
 
 header .row .col-sm-7 {
@@ -279,8 +285,8 @@ header .container .col-sm-7 h1 {
 .section-3 .desktop {
     background: white;
     display: inline-block;
-    border-radius: 3em;
-    padding: 2vmin 4.5vmin;
+    border-radius: 50px;
+    padding: 1vmin 4.5vmin;
     margin: 1em;
 }
 
@@ -290,4 +296,70 @@ header .container .col-sm-7 h1 {
 
 .section-3 .dekstop p {
     font-size: 2vmin;
+}
+
+/* Section 4 */
+
+.section-4 .container h1 {
+    font-size: 6vmin;
+    padding-top: 14vmin;
+}
+
+.section-4 .team {
+    padding: 10vmin 4vmin;
+}
+
+.section-4 .card {
+    width: 22rem;
+    margin-top: 10vmin;
+}
+
+.section-4 .card .card-text {
+    padding: 0.5em;
+}
+
+.section-4 .card .card-body>a {
+    font-size: 1.5em;
+}
+
+.section-4 .carousel-item {
+    padding-left: 1rem;
+}
+
+.border-radius {
+    border-radius: 100px;
+    width: 60%;
+}
+
+/* Footer */
+
+footer {
+    background: rgba(0, 0, 0, 0.85);
+    overflow-x: hidden;
+    padding: 14vmin 18vmin;
+}
+
+footer p>span {
+    color: #De5b6D;
+}
+
+footer input {
+    border: none !important;
+}
+
+footer input::placehorder {
+    color: white !important;
+}
+
+footer .input-group .input-group-text {
+    background: #De5b6D;
+    border: none;
+}
+
+footer .coloumn i {
+    color: #De5b6D;
+}
+
+footer .coloumn i+i {
+    padding: 0 0.1;
 }
