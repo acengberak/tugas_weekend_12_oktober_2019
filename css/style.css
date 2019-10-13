@@ -1,0 +1,151 @@
+/*Googlefont*/
+
+@import url('https://fonts.googleapis.com/css?family=Acme|Lobster|Patua+One|Rubik|Sniglet&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+header,
+section {
+    overflow: hidden;
+}
+
+:root {
+    --Snigle-font: "Sniglet", cursive;
+    --Rubik: "Rubik", cursive;
+    --Patua: "Patua One", cursive;
+    --Lobster: "Lobster", cursive;
+    --light-black: #2e2c2caf;
+    --bggradient: linear-gradient(to bottom,
+            #425c5A, #425c5A);
+    --light-gray: rgba(255, 255, 255, 0)
+}
+
+header a {
+    font-family:
+        var(--Snigle-font);
+    font-size: 0, 9em;
+    color: whitesmoke;
+}
+
+header {
+    background: #425c5A;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background: white;
+    min-width: 160px;
+    box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 10px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+header .nav-item:last-child {
+    padding-right: 10.5em;
+}
+
+header .nav-item {
+    padding: 0.9em
+}
+
+header .navbar-brand {
+    padding-left: 8rem;
+}
+
+header .nav-link:hover {
+    color: black;
+}
+
+/* Julia Morgan */
+
+header .row .col-md-7 {
+    padding: 22vmin 1vmin;
+    padding-bottom: 30vmin;
+    font-family: var(--Rubik);
+    color: whitesmoke;
+}
+
+header .row .col-md-5 img {
+    width: 85%;
+    margin-top: 10vmin;
+
+}
+
+header .container .col-md-7 h6 {
+    padding: 1vmin;
+    letter-spacing: 4px;
+}
+
+
+header .container .col-md-7 h1 {
+    font-size: 8.5vmin;
+    font-weight: bold;
+    padding: 0.1em 0em;
+}
+
+
+/* carousel TOP */
+
+.carousel-caption {
+    position: absolute;
+    left: 0;
+    width: 50%;
+    top: 2%;
+    margin-left: 15%;
+    text-align: justify;
+    text-align: left;
+
+}
+
+.carousel-caption h5 {
+    font-size: 5em;
+    color: #425c5A;
+    font-weight: bold;
+}
+
+.carousel-caption p {
+    color: #425c5A;
+}
+
+.bnr-icons {
+    color: #425c5A;
+    font-size: 35px;
+}
+
+.btn {
+    padding: 1.375rem 0.75rem;
+}
+
+.carousel-indicators li {
+    background-color: #425c5A;
+}
+
+
+.btn-outline-success {
+    color: #425c5A;
+    border-color: #425c5A;
+    border-radius: 25px;
+    background-image: none;
+    background-color: transparent;
+}
+
+.btn-outline-success:hover {
+    color: none;
+}
