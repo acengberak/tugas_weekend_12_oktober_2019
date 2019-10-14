@@ -71,10 +71,20 @@ header .navbar-brand {
 
 header .nav-link:hover {
     color: black;
+    transition: 0.3s;
 }
 
 button .navbar-toggler .collapse {
     z-index: 1;
+}
+
+header i:hover {
+    color: black;
+}
+
+header .navbar-brand:hover {
+    color: black;
+    transition: 0.3s;
 }
 
 
@@ -285,9 +295,10 @@ header .container .col-sm-7 h1 {
 .section-3 .desktop {
     background: white;
     display: inline-block;
-    border-radius: 50px;
+    border-radius: 45px;
     padding: 1vmin 4.5vmin;
     margin: 1em;
+
 }
 
 .section-3 .dekstop h3 {
